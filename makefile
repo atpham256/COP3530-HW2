@@ -1,5 +1,5 @@
 all:
-	${MAKE} hw2prob1 hw2prob5 hw2prob6
+	make hw2prob1 hw2prob5 hw2prob6
 hw2prob1: hw2prob1.o fibonacci.o rFibonacci.o
 	g++ -g -Wall -o hw2prob1 hw2prob1.o fibonacci.o rFibonacci.o
 hw2prob1.o: hw2prob1.cpp
